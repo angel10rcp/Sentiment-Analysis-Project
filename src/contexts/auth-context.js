@@ -1,5 +1,6 @@
 import { createContext, useContext, useEffect, useReducer, useRef } from 'react';
 import PropTypes from 'prop-types';
+import { Auth } from 'aws-amplify';
 
 const HANDLERS = {
   INITIALIZE: 'INITIALIZE',
@@ -129,7 +130,7 @@ export const AuthProvider = (props) => {
 
   const signIn = async (email, password) => {
     if (email !== 'demo@devias.io' || password !== 'Password123!') {
-      throw new Error('Please check your email and password');
+      throw new Error('Porfavor verifica que este correcto el correo y contraseña');
     }
 
     try {

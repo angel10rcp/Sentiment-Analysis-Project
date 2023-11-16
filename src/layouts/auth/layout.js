@@ -73,19 +73,19 @@ export const Layout = (props) => {
               align="center"
               color="inherit"
               sx={{
-                fontSize: '24px',
+                fontSize: '44px',
                 lineHeight: '32px',
                 mb: 1
               }}
               variant="h1"
             >
-              Welcome to{' '}
+              Bienvenido a {' '}
               <Box
                 component="a"
-                sx={{ color: '#15B79E' }}
+                sx={{ color: '#8a8787' }}
                 target="_blank"
               >
-                Devias Kit
+                Social SentiNet
               </Box>
             </Typography>
             <Typography
@@ -93,11 +93,11 @@ export const Layout = (props) => {
               sx={{ mb: 3 }}
               variant="subtitle1"
             >
-              A professional kit that comes with ready-to-use MUI components.
+              Emociones en Red, Información en Cada Pulsación
             </Typography>
             <img
               alt=""
-              src="/assets/auth-illustration.svg"
+              src="/assets/auth-illustration3.svg"
             />
           </Box>
         </Grid>
